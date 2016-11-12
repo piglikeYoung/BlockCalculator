@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JHCalculator.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    JHCalculator *calculator = [JHCalculator new];
+    calculator.add(10).minus(5).multiply(3).divide(5);
+    
+    NSLog(@"%zd", calculator.resultValue);
 }
 
 
