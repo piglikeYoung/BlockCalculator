@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "JHCalculator.h"
+#import "JHCalculator2.h"
 
 @interface ViewController ()
 
@@ -18,10 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    JHCalculator *calculator = [JHCalculator new];
-    calculator.add(10).minus(5).multiply(3).divide(5);
+//    JHCalculator *calculator = [JHCalculator new];
+//    calculator.add(10).minus(5).multiply(3).divide(5);
     
-    NSLog(@"%zd", calculator.resultValue);
+    JHCalculator2 *calculator2 = [JHCalculator2 new];
+    calculator2.add(10).minus(5).multiply(3).divide(5);
+    
+    NSLog(@"%zd", calculator2.resultValue);
 }
 
 

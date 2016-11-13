@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF60BA11DD81FA4000E8FB8 /* JHCalculator2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF60BA01DD81FA4000E8FB8 /* JHCalculator2.m */; };
 		D2785A381DD6F4060083B589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785A371DD6F4060083B589 /* main.m */; };
 		D2785A3B1DD6F4060083B589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785A3A1DD6F4060083B589 /* AppDelegate.m */; };
 		D2785A3E1DD6F4060083B589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2785A3D1DD6F4060083B589 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DF60B9F1DD81FA4000E8FB8 /* JHCalculator2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCalculator2.h; sourceTree = "<group>"; };
+		7DF60BA01DD81FA4000E8FB8 /* JHCalculator2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCalculator2.m; sourceTree = "<group>"; };
 		D2785A331DD6F4060083B589 /* BlockCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2785A371DD6F4060083B589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2785A391DD6F4060083B589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				D2785A3D1DD6F4060083B589 /* ViewController.m */,
 				D2785A4D1DD6F6400083B589 /* JHCalculator.h */,
 				D2785A4E1DD6F6400083B589 /* JHCalculator.m */,
+				7DF60B9F1DD81FA4000E8FB8 /* JHCalculator2.h */,
+				7DF60BA01DD81FA4000E8FB8 /* JHCalculator2.m */,
 				D2785A3F1DD6F4060083B589 /* Main.storyboard */,
 				D2785A421DD6F4060083B589 /* Assets.xcassets */,
 				D2785A441DD6F4060083B589 /* LaunchScreen.storyboard */,
@@ -157,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF60BA11DD81FA4000E8FB8 /* JHCalculator2.m in Sources */,
 				D2785A3E1DD6F4060083B589 /* ViewController.m in Sources */,
 				D2785A4F1DD6F6400083B589 /* JHCalculator.m in Sources */,
 				D2785A3B1DD6F4060083B589 /* AppDelegate.m in Sources */,
@@ -319,6 +325,7 @@
 				D2785A4C1DD6F4060083B589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
